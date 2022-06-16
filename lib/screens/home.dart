@@ -89,16 +89,10 @@ class Custom_Card extends StatelessWidget {
                 )
               ],
             ),
-            SizedBox(
-              width: MediaQuery.of(context).size.width / 2,
-            ),
             Spacer(),
             Icon(
               Icons.radar,
               color: Colors.black.withOpacity(0.5),
-            ),
-            SizedBox(
-              width: MediaQuery.of(context).size.width / 54,
             ),
             Icon(
               Icons.arrow_right_alt,
