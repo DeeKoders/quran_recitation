@@ -16,7 +16,9 @@ class LoginScreen extends StatelessWidget {
       assetName,
     );
     return Scaffold(
-      bottomNavigationBar: Container(child: Lottie.asset('images/waves.json')),
+      bottomNavigationBar: Container(
+        width: MediaQuery.of(context).size.width,
+        child: Lottie.asset('images/waves.json')),
       body: Padding(
         padding: const EdgeInsets.only(top: 30.0),
         child: ListView(
